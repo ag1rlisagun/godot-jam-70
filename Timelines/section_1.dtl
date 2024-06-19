@@ -1,6 +1,13 @@
-<Empty Text Event>
-<Empty Text Event>
-<Empty Text Event>
-<Empty Text Event>
-<Empty Text Event>
-<Empty Text Event>
+[music fade="0.0" volume="0.0"]
+[style name="for_ss"]
+[background arg="res://Assets/Backgrounds/white_fade.png" fade="0.0"]
+[background arg="res://Assets/Backgrounds/black_fade.png" fade="5.0"]
+[wait time="7.0"]
+[background arg="res://Assets/Images/limbo.png" fade="8.0"]
+[wait_input hide_text="false"]
+protagonist (protag_hidden): ... Was I talking just now? [n+] I thought I said something, but I can’t remember what.
+voice: You were just about to tell me about yourself. [pause=0.5] Are you having trouble remembering? 
+protagonist (protag_hidden): Ah, sorry about that! Where was I?
+protagonist (protag_hidden): Actually... [n+] Forgive me, but I’m confused. [n+] I feel like I was just in the middle of something but I guess I’ve been here, talking to you.
+protagonist (protag_hidden): I've been called spacey from time to time but it’s never been this bad! [n+] I’m sorry if I’m being disrespectful, I never mean to.
+voice: Hmm. [pause=0.7] You do apologize a lot. 

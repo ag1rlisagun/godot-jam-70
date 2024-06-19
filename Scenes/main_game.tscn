@@ -1,0 +1,11 @@
+[gd_scene load_steps=3 format=3 uid="uid://blc6paorn7281"]
+
+[ext_resource type="Script" path="res://Scripts/main_game.gd" id="1_ay7sx"]
+[ext_resource type="Script" path="res://Scripts/Camera2D.gd" id="3_fga16"]
+
+[node name="MainGame" type="Node2D"]
+script = ExtResource("1_ay7sx")
+
+[node name="Camera2D" type="Camera2D" parent="."]
+position = Vector2(576, 324)
+script = ExtResource("3_fga16")
